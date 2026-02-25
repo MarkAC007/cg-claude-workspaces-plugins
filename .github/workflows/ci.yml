@@ -1,0 +1,42 @@
+name: CI
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: [master]
+
+jobs:
+  typecheck:
+    name: TypeScript (art/tools)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+      - run: bun install --frozen-lockfile
+        working-directory: plugins/marketing/art/tools
+      - run: bun run typecheck
+        working-directory: plugins/marketing/art/tools
+
+  validate-json:
+    name: Validate JSON
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m json.tool .claude-plugin/marketplace.json > /dev/null
+      - run: |
+          find plugins -name "plugin.json" | while read f; do
+            echo "Validating $f"
+            python3 -m json.tool "$f" > /dev/null
+          done
+
+  markdownlint:
+    name: Markdown Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: DavidAnson/markdownlint-cli2-action@v17
+        with:
+          globs: "plugins/**/commands/*.md\nREADME.md"
+          config: '{"default":true,"MD013":false,"MD033":false,"MD041":false}'

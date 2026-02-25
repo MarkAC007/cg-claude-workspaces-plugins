@@ -1,6 +1,9 @@
 {
   "name": "tools",
   "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
