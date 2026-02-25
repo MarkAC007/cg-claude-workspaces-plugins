@@ -25,6 +25,41 @@
       "description": "Multi-agent debate system. Specialized agents discuss topics in rounds, challenge each other, and surface insights through intellectual friction.",
       "version": "1.0.0",
       "category": "research"
+    },
+    {
+      "name": "prompting",
+      "source": "./plugins/productivity/prompting",
+      "description": "Meta-prompting system for dynamic prompt generation using Anthropic best practices, templates, and patterns.",
+      "version": "1.0.0",
+      "category": "productivity"
+    },
+    {
+      "name": "sales",
+      "source": "./plugins/marketing/sales",
+      "description": "Transform product documentation into compelling sales narratives with talking points, elevator pitches, and visual concept briefs.",
+      "version": "1.0.0",
+      "category": "marketing"
+    },
+    {
+      "name": "sec-updates",
+      "source": "./plugins/research/sec-updates",
+      "description": "Aggregate security news from tldrsec, Krebs, Schneier, and other sources into ranked updates across News, Research, and Ideas.",
+      "version": "1.0.0",
+      "category": "research"
+    },
+    {
+      "name": "evals",
+      "source": "./plugins/dev-tools/evals",
+      "description": "AI agent evaluation framework based on Anthropic best practices. Create use cases, LLM judges, A/B prompt tests, and model comparisons.",
+      "version": "1.0.0",
+      "category": "dev-tools"
+    },
+    {
+      "name": "first-principles",
+      "source": "./plugins/productivity/first-principles",
+      "description": "First principles reasoning framework. Deconstruct problems to fundamentals, challenge assumptions, and reconstruct optimal solutions.",
+      "version": "1.0.0",
+      "category": "productivity"
     }
   ]
 }

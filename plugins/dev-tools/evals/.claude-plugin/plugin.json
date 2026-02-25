@@ -1,0 +1,6 @@
+{
+  "name": "evals",
+  "version": "1.0.0",
+  "description": "AI agent evaluation framework based on Anthropic best practices. Create use cases, LLM judges, A/B prompt tests, and model comparisons.",
+  "author": { "name": "PAI" }
+}
