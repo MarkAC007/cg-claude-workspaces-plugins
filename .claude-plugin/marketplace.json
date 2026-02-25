@@ -18,6 +18,20 @@
       "description": "Data Protection Security Impact Assessment for vendor security evaluation against CIA triad, certification requirements, and GDPR compliance.",
       "version": "1.0.0",
       "category": "security"
+    },
+    {
+      "name": "red-team",
+      "source": "./plugins/research/red-team",
+      "description": "Adversarial analysis using 32 parallel expert agents. Stress-tests arguments, produces steelman + counter-argument, and validates decisions through competition.",
+      "version": "1.0.0",
+      "category": "research"
+    },
+    {
+      "name": "council",
+      "source": "./plugins/research/council",
+      "description": "Multi-agent debate system. Specialized agents discuss topics in rounds, challenge each other, and surface insights through intellectual friction.",
+      "version": "1.0.0",
+      "category": "research"
     }
   ]
 }

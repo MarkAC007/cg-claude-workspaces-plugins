@@ -1,0 +1,6 @@
+{
+  "name": "red-team",
+  "version": "1.0.0",
+  "description": "Adversarial analysis using 32 parallel expert agents. Stress-tests arguments, produces steelman + counter-argument, and validates decisions through competition.",
+  "author": { "name": "PAI" }
+}
