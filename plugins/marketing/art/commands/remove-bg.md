@@ -4,15 +4,6 @@
 
 Remove backgrounds from existing images to create transparent PNGs. Supports two methods: re-generation with the --remove-bg flag (for freshly generated images) and the remove.bg API (for existing photos or images).
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Remove Background workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

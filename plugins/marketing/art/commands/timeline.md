@@ -4,15 +4,6 @@
 
 Create hand-drawn illustrated timelines showing evolution, trends, and transformations with visual metaphors at each milestone. Unlike simple date lists, these timelines use illustrated milestones to show transformation, not just chronology. Shows the narrative arc of change over time.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Timeline workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

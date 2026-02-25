@@ -4,15 +4,6 @@
 
 Generate branded 4K wallpapers (16:9) that integrate logos as organic design elements -- emblazoned, embossed, woven, or negative space. Designed for terminal backgrounds and macOS desktop with the UL blue/purple/teal color palette.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Wallpaper workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

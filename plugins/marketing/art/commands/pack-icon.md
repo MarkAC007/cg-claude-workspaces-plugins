@@ -4,15 +4,6 @@
 
 Generate 256x256 transparent PNG icons for PAI packs. Icons use electric blue (#4a90d9) as the dominant color with minimal purple accent, simple flat geometry readable at 64x64 pixels, and NO text.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Pack Icon workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

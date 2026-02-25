@@ -4,15 +4,6 @@
 
 Creates process recipe cards -- numbered steps with small illustrations for each action. Scannable format with 3-tier typography (title, steps, details). These are visual how-to guides that make complex processes memorable and easy to reference. Purple (#4A148C) for critical steps and outcomes. Professional deliverable quality.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Recipe workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

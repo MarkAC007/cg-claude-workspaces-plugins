@@ -4,15 +4,6 @@
 
 Creates annotated screenshots -- real UI or code screenshots with hand-drawn purple/teal commentary overlays. Arrows, circles, callouts, and editorial voice annotations layered on top of an actual screenshot. The screenshot is the foundation; the annotations add insight. Purple (#4A148C) for critical callouts, teal (#00796B) for helpful context.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Annotate workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.
