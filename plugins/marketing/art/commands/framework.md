@@ -4,15 +4,6 @@
 
 Create hand-drawn visual frameworks -- 2x2 matrices, Venn diagrams, pyramids, spectrums, and conceptual relationship maps. These become THE signature reference image for a mental model, combining clear structure with editorial hand-drawn aesthetic. Purple for the optimal zone, teal for contrast.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Framework workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

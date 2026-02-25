@@ -4,15 +4,6 @@
 
 Create hand-drawn side-by-side visual comparisons using editorial split-screen style. Shows two contrasting concepts, states, or approaches with illustrated metaphors that make differences immediately obvious. Purple for one side, teal for the other (or purple on the preferred side).
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Comparison workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

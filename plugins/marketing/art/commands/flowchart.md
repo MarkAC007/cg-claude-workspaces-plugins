@@ -4,15 +4,6 @@
 
 Create Excalidraw-style Mermaid diagrams -- flowcharts, sequence diagrams, state machines, class diagrams, and ER diagrams with a hand-drawn whiteboard aesthetic. Combines Mermaid structural grammar with wobbly boxes, sketchy lines, and hand-lettered text. NOT for freeform architecture diagrams (use /art:diagram).
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Flowchart workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

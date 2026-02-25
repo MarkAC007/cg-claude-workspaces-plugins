@@ -4,15 +4,6 @@
 
 Creates visual aphorism cards -- giant bold typography as the hero element with a minimal hand-drawn accent. The quote IS the visual (80-90% of the image). Designed for shareable social media content, newsletter pull quotes, and thought leadership visuals. Square 1:1 format. High contrast. Hand-lettered quality.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Aphorism workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

@@ -4,15 +4,6 @@
 
 Generate images via Midjourney using Discord bot integration. Best for photorealistic renders, maximally stylized artwork, or aesthetics where Midjourney excels over other models. Uses GenerateMidjourneyImage.ts to send prompts to Midjourney through Discord and download the completed result.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Midjourney workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

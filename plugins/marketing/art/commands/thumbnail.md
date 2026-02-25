@@ -4,15 +4,6 @@
 
 Generate complete YouTube thumbnails (1280x720) with AI-generated face-only headshots, dramatic futuristic tech backgrounds, and billboard-style text. Each thumbnail is unique with varied headshot expressions, positions, and background styles.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Thumbnail workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

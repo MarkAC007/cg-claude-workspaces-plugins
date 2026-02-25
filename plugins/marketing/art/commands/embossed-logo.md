@@ -4,15 +4,6 @@
 
 Generate sophisticated wallpapers where the logo is physically embossed as a texture within the visual content -- not overlaid, not floating in empty space. The logo appears as a subtle raised/pressed element integrated into the design, positioned small in the bottom left and surrounded by visual content.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Embossed Logo workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

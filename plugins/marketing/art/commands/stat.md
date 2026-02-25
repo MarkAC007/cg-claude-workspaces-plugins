@@ -4,15 +4,6 @@
 
 Creates illustrated stat cards -- a single striking statistic made visual with a small supporting illustration. The number dominates (60-70% of the visual) with a brief illustration showing what the stat represents (20-30%). Purple (#4A148C) for the number. Designed for newsletters, social media, and quick visual facts.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Stat workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.

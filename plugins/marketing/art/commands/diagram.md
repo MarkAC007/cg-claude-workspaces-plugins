@@ -4,15 +4,6 @@
 
 Create clean Excalidraw-style technical diagrams for system architecture, process flows, pipelines, infrastructure maps, and board presentations. Uses a pure sepia #EAE9DF background with NO grid, Butterick font hierarchy (Valkyrie, Concourse, Advocate), and strategic purple/teal accents.
 
-## Voice Notification
-
-```bash
-curl -s -X POST http://localhost:8888/notify \
-  -H "Content-Type: application/json" \
-  -d '{"message": "Running the Diagram workflow", "voice_id": "25"}' \
-  > /dev/null 2>&1 &
-```
-
 ## Output to Downloads First
 
 ALL GENERATED IMAGES GO TO ~/Downloads/ FIRST -- NEVER directly to project directories.
