@@ -16,7 +16,7 @@ jobs:
           bun-version: latest
       - run: bun install --frozen-lockfile
         working-directory: plugins/marketing/art/tools
-      - run: bun run typecheck
+      - run: bun run typecheck:ci
         working-directory: plugins/marketing/art/tools
 
   validate-json:

@@ -2,7 +2,8 @@
   "name": "tools",
   "private": true,
   "scripts": {
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "typecheck:ci": "tsc --noEmit -p tsconfig.ci.json"
   },
   "devDependencies": {
     "@types/bun": "latest"
