@@ -22,7 +22,8 @@ Ask:
 
 Structure the prompt using these principles:
 
-**Core Structure**
+### Core Structure
+
 ```markdown
 ## Role / Identity (optional but powerful)
 [Who the model is acting as]
@@ -46,7 +47,8 @@ Structure the prompt using these principles:
 [2-3 concrete input → output pairs when accuracy matters]
 ```
 
-**Key Principles**
+### Key Principles
+
 - Markdown-first design (use `##` headers, bullet points, code fences)
 - Put instructions before examples
 - Be specific about output format — vague formats produce vague outputs

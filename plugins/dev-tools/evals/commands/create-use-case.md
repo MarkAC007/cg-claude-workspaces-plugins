@@ -139,6 +139,7 @@ Check all files are well-formed YAML and the config passes a mental dry-run: wou
 ## Grader Types Reference
 
 ### Code-Based (Fast, Deterministic)
+
 | Grader | Use Case |
 |--------|----------|
 | `string_match` | Exact substring matching |
@@ -149,6 +150,7 @@ Check all files are well-formed YAML and the config passes a mental dry-run: wou
 | `tool_calls` | Verify specific tools were called |
 
 ### Model-Based (Nuanced)
+
 | Grader | Use Case |
 |--------|----------|
 | `llm_rubric` | Score against detailed rubric |
@@ -156,6 +158,7 @@ Check all files are well-formed YAML and the config passes a mental dry-run: wou
 | `pairwise_comparison` | Compare to reference (use position swap) |
 
 ### Criteria Weights
+
 | Pattern | Deterministic | AI-Based |
 |---------|---------------|----------|
 | Format-critical | 60-70% | 30-40% |
