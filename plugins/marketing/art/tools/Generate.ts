@@ -469,7 +469,7 @@ async function generateWithFlux(prompt: string, size: ReplicateSize, output: str
     },
   });
 
-  await writeFile(output, result as string);
+  await writeFile(output, result as unknown as string);
   console.log(`✅ Image saved to ${output}`);
 }
 
@@ -491,7 +491,7 @@ async function generateWithNanoBanana(prompt: string, size: ReplicateSize, outpu
     },
   });
 
-  await writeFile(output, result as string);
+  await writeFile(output, result as unknown as string);
   console.log(`✅ Image saved to ${output}`);
 }
 
