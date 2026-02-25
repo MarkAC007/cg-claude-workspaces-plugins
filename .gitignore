@@ -19,3 +19,4 @@ tools/node_modules/
 # TypeScript build output
 *.js.map
 dist/
+plugins/marketing/art/tools/node_modules/*
