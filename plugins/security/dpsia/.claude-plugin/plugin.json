@@ -1,0 +1,6 @@
+{
+  "name": "dpsia",
+  "version": "1.0.0",
+  "description": "Data Protection Security Impact Assessment for vendor security evaluation against CIA triad, certification requirements, and GDPR compliance.",
+  "author": { "name": "ComplianceGenie" }
+}
