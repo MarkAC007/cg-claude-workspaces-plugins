@@ -1,0 +1,6 @@
+{
+  "name": "sec-updates",
+  "version": "1.0.0",
+  "description": "Aggregate security news from tldrsec, Krebs, Schneier, and other sources into ranked updates across News, Research, and Ideas.",
+  "author": { "name": "PAI" }
+}

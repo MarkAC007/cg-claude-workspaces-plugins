@@ -1,0 +1,6 @@
+{
+  "name": "prompting",
+  "version": "1.0.0",
+  "description": "Meta-prompting system for dynamic prompt generation using Anthropic best practices, templates, and patterns.",
+  "author": { "name": "PAI" }
+}
