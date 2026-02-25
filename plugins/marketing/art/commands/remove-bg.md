@@ -56,7 +56,7 @@ Use when you have an existing file that cannot be re-generated (photos, screensh
 Re-generate the image with the --remove-bg flag. This produces a transparent PNG directly.
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[ORIGINAL PROMPT OR DESCRIPTION OF DESIRED IMAGE]" \
   --size 2K \
@@ -145,7 +145,7 @@ Note: Each image counts as one API call against the monthly limit.
 
 **Method A (Generate.ts):**
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[PROMPT]" \
   --size [1K|2K|4K] \

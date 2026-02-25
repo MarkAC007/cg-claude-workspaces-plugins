@@ -141,7 +141,7 @@ CRITICAL: Hand-drawn recipe card aesthetic. Simple scannable icons. Clear 1-2-3 
 ### Step 5: Generate
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[YOUR CONSTRUCTED PROMPT]" \
   --size 2K \

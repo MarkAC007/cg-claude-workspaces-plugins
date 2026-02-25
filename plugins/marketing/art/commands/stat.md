@@ -124,7 +124,7 @@ CRITICAL: Number is HERO (60-70%). Hand-lettered quality. Illustration SMALL and
 ### Step 5: Generate
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[YOUR CONSTRUCTED PROMPT]" \
   --size 2K \

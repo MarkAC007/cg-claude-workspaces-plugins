@@ -152,7 +152,7 @@ Default: 16:9
 ### Step 7: Generate
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[YOUR PROMPT]" \
   --size 2K \

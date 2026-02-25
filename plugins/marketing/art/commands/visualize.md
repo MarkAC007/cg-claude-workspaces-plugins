@@ -171,7 +171,7 @@ CRITICAL: Flat colors only, no gradients. Strategic color, not everywhere.
 ### Step 5: Generate
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[YOUR COMPREHENSIVE PROMPT]" \
   --size 2K \

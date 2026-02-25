@@ -78,7 +78,7 @@ NO TEXT in the icon. Centered composition. Transparent background.
 Generate at 1K resolution (produces ~2048px) with transparent background, then resize to 256x256.
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "Minimalist icon for [PACK_CONCEPT]. Electric blue #4a90d9 dominant, tiny purple #8b5cf6 accent. Simple flat geometry, readable at 64x64px. Transparent background. NO TEXT." \
   --size 1K \
@@ -127,7 +127,7 @@ If the icon is not clearly recognizable at 64x64, the design is too complex. Sim
 
 ```bash
 # Step 1: Generate at high resolution with transparency
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[ICON PROMPT]" \
   --size 1K \
@@ -163,7 +163,7 @@ magick ~/Downloads/[pack-name]-icon-2048.png \
 
 ### Hook System Pack
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "Stylized hook shape representing event hooks in software. Electric blue #4a90d9 dominant, tiny purple #8b5cf6 accent. Simple flat geometry, readable at 64x64px. Transparent background. NO TEXT." \
   --size 1K \
@@ -176,7 +176,7 @@ magick ~/Downloads/pai-hook-system-icon-2048.png -resize 256x256 ~/Downloads/pai
 
 ### Memory System Pack
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "Brain with data flowing in and out representing an AI memory system. Electric blue #4a90d9 dominant, tiny purple #8b5cf6 accent. Simple flat geometry, readable at 64x64px. Transparent background. NO TEXT." \
   --size 1K \
