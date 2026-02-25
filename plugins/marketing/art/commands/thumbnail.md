@@ -73,7 +73,7 @@ Dark futuristic tech background -- NO faces, NO text in the background.
 ```bash
 TIMESTAMP=$(date +%Y%m%d-%H%M%S)
 
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana \
   --prompt "Dramatic futuristic technology background. Dark hexagonal circuit board pattern with glowing cyan/blue neon edge lighting. 3D depth perspective. Metallic dark grey hexagons with embedded circuit patterns. Glowing cyan (#7dcfff) and purple (#bb9af7) edge highlights. Deep shadows, high contrast. Sci-fi aesthetic like Blade Runner or Tron. Abstract technology, NO TEXT, NO PEOPLE. Dark moody atmosphere with electric blue glow accents. Topic context: [EXTRACTED_TOPIC]" \
   --size 16:9 \
@@ -103,7 +103,7 @@ Example prompts:
 - Variation C: "Extreme close-up FACE ONLY. Forehead to chin, ear to ear. NO shoulders, NO neck, NO body. Focused, direct engagement expression. Head tilted slightly. Pure black background. Full beard along jawline, clean-shaven upper lip. Rembrandt lighting. Ultra-tight crop on face only."
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[FACE-ONLY HEADSHOT PROMPT]" \
   --reference-image [REFERENCE_IMAGE] \
@@ -118,7 +118,7 @@ bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
 Combine background, headshot, and text using ComposeThumbnail.
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/ComposeThumbnail.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/ComposeThumbnail.ts \
   --background ~/Downloads/yt-bg-${TIMESTAMP}.png \
   --headshot ~/Downloads/yt-headshot-${TIMESTAMP}.png \
   --title "[TITLE - MAX 6 WORDS]" \

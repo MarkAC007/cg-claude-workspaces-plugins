@@ -116,7 +116,7 @@ CRITICAL:
 ### Step 4: Generate Wallpaper
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[CONSTRUCTED_PROMPT]" \
   --reference-image [LOGO_PATH] \
@@ -179,7 +179,7 @@ subtle glow at logo edges where pattern meets empty space
 ## Tool Invocation
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[4K WALLPAPER PROMPT WITH LOGO INTEGRATION]" \
   --reference-image [LOGO_PATH] \

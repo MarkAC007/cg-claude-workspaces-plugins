@@ -159,7 +159,7 @@ NO other text.
 ### Step 6: Execute the Generation
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[PROMPT FROM STEP 5]" \
   --size 2K \

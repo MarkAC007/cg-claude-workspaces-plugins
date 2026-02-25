@@ -151,7 +151,7 @@ CRITICAL:
 ### Step 4: Generate
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[CONSTRUCTED_PROMPT]" \
   --reference-image [LOGO_PATH] \
@@ -184,7 +184,7 @@ Do NOT present the wallpaper until every validation item passes. Regenerate as m
 ## Tool Invocation
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[SOPHISTICATED DARK TECH WALLPAPER WITH EMBOSSED LOGO IN BOTTOM LEFT]" \
   --reference-image [LOGO_PATH] \

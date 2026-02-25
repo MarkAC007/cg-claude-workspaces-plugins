@@ -134,7 +134,7 @@ CRITICAL: Screenshot remains readable. Annotations clearly overlay (not integrat
 ### Step 5: Generate
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --reference-image [SCREENSHOT_PATH] \
   --prompt "[YOUR ANNOTATION PROMPT]" \

@@ -127,7 +127,7 @@ COLOR: Black (#000000) for all coastlines, borders, features. Purple (#4A148C) s
 ### Step 5: Generate
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/Generate.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/Generate.ts \
   --model nano-banana-pro \
   --prompt "[YOUR CONSTRUCTED PROMPT]" \
   --size 2K \

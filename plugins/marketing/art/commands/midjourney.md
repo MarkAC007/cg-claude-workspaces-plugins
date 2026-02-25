@@ -133,7 +133,7 @@ Build the Midjourney prompt with:
 ### Step 3: Generate Image
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/GenerateMidjourneyImage.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/GenerateMidjourneyImage.ts \
   --prompt "[FULL MIDJOURNEY PROMPT INCLUDING --ar AND --v FLAGS]" \
   --output ~/Downloads/midjourney-[descriptive-name].png
 ```
@@ -175,7 +175,7 @@ If the result is not satisfactory:
 ## Tool Invocation
 
 ```bash
-bun run ~/dev/cg-claude-workspaces-plugins/tools/GenerateMidjourneyImage.ts \
+bun run ~/dev/cg-claude-workspaces-plugins/plugins/marketing/art/tools/GenerateMidjourneyImage.ts \
   --prompt "[PROMPT] --ar 16:9 --v 6.1" \
   --output ~/Downloads/midjourney-[name].png
 ```

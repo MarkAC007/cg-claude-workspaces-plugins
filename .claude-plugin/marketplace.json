@@ -1,0 +1,16 @@
+{
+  "name": "cg-plugins",
+  "description": "ComplianceGenie Claude Code plugins.",
+  "owner": {
+    "name": "Mark Almeida-Cardy"
+  },
+  "plugins": [
+    {
+      "name": "art",
+      "source": "./plugins/marketing/art",
+      "description": "Visual content system — illustrations, diagrams, thumbnails, and visual assets.",
+      "version": "1.0.0",
+      "category": "marketing"
+    }
+  ]
+}
