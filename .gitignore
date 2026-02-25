@@ -1,0 +1,21 @@
+# Dependencies
+tools/node_modules/
+
+# Environment files (never commit API keys)
+.env
+.env.local
+*.env
+
+# OS files
+.DS_Store
+*.DS_Store
+
+# Generated outputs
+*.png
+*.jpg
+*.webp
+*.mp4
+
+# TypeScript build output
+*.js.map
+dist/

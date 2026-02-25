@@ -1,0 +1,6 @@
+{
+  "name": "art",
+  "version": "1.0.0",
+  "description": "Complete visual content system. Generate editorial illustrations, technical diagrams, infographics, YouTube thumbnails, and visual assets using Flux, Nano Banana Pro, GPT-image-1, and Midjourney.",
+  "author": { "name": "PAI" }
+}
