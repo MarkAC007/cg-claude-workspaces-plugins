@@ -1,0 +1,6 @@
+{
+  "name": "council",
+  "version": "1.0.0",
+  "description": "Multi-agent debate system. Specialized agents discuss topics in rounds, challenge each other, and surface insights through intellectual friction.",
+  "author": { "name": "PAI" }
+}
