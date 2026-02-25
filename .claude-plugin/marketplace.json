@@ -6,13 +6,6 @@
   },
   "plugins": [
     {
-      "name": "art",
-      "source": "./plugins/marketing/art",
-      "description": "Visual content system — illustrations, diagrams, thumbnails, and visual assets.",
-      "version": "1.0.0",
-      "category": "marketing"
-    },
-    {
       "name": "dpsia",
       "source": "./plugins/security/dpsia",
       "description": "Data Protection Security Impact Assessment for vendor security evaluation against CIA triad, certification requirements, and GDPR compliance.",
